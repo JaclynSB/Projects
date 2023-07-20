@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(101, 119, 70);
+}
+
+h3 {
+    text-align: center;
+}
+
+.top-box {
+    color: whitesmoke;
+    font-size:x-large;
+    font-family: Georgia, serif;
+    -webkit-text-stroke: 1px rgb(97, 95, 95);
+}
+
+.sub-text {
+    color: whitesmoke;
+    font-family: Georgia, serif;
+    font-size: smaller;
+    font-style: italic;
+    padding: 5px;
+}
+
+.header {
+    text-align: center;
+}
+
+.basic-text {
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+}
+
+.flex-container {
+    display: flex;
+    width: 45%;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    border: solid black;
+    border-radius: 3px;
+    flex-direction: column;
+}
+
+.flex-container div {
+    background-color: orange;
+    border: solid grey;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+
+.flex-container-2 {
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    height: 100px;
+}
+
+.flex-container-2 div {
+    background-color: rgb(120, 195, 235);
+    border: solid black;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-container-2 div:hover {
+    /* box-shadow: 0 0 0 2px aquamarine; */
+    background-color: rgb(92, 140, 235);
+}
